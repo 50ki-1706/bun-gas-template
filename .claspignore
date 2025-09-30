@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+**/.bun/
+
+# Source files (only push compiled files)
+src/
+*.ts
+!dist/**/*.ts
+
+# Config files
+tsconfig.json
+package.json
+package-lock.json
+bun.lock
+yarn.lock
+pnpm-lock.yaml
+
+# Linting and formatting
+.eslintrc.json
+eslint.config.js
+.prettierrc
+.editorconfig
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
+
+# Build artifacts
+dist/**/*.js.map
+*.tsbuildinfo
+
+# Documentation
+README.md
+LICENSE
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Testing
+**/*.test.ts
+**/*.spec.ts
+coverage/

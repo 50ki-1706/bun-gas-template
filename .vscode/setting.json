@@ -1,0 +1,13 @@
+{
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.probe": [
+        "typescript",
+        "javascript"
+    ],
+    "eslint.run": "onSave"
+}
