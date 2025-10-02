@@ -1,6 +1,10 @@
 # セットアップ
 
-## 初回のみ: Google アカウントでログイン
+```bash
+bun i
+```
+
+## clasp
 
 ```bash
 clasp login
